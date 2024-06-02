@@ -16,7 +16,9 @@ def caesar_cipher(string, offset)
                 num += 97
             end
             newchar = num.chr()  
-            arr << newchar 
+            arr << newchar
+        else
+            arr << s
         end
     end
     return arr.join()

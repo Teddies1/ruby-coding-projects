@@ -24,7 +24,6 @@ def caesar_cipher(string, offset)
     return arr.join()
 end
 
-
 def main()
     puts "Input your string: "
     str = gets.to_s()
@@ -35,10 +34,6 @@ def main()
     puts ans
     return ans
 
-end
-
-def alpha?(char)
-    char.upcase != char.downcase
 end
 
 main()

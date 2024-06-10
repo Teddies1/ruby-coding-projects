@@ -55,6 +55,7 @@ class Board
             if char2 == symbol
                 count2 += 1
             end
+        end
         if count1 == 3
             flag1 = true
         end
@@ -76,8 +77,7 @@ end
 
 def main()
     board = Board.new()
-    puts board.print_board()
-    
+    puts board.print_board() 
 end
 
 main()
